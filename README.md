@@ -24,4 +24,4 @@ About My Project : Sometimes the CLI(Command Line Interface) is so complex to wo
 
 but In automatic config, you don't have to put all these thing, Just one click start and one click stop. I've used docker compose here.
 
-![ ](screenShots/Screenshot from 2020-04-24 13-40-56.png)
+![ ](screenShots/Screenshot%20from%202020-04-24 13-40-56.png)
