@@ -21,9 +21,6 @@ def dockerCompose():
     webbrowser.open_new_tab('192.168.1.108:8080') or webbrowser.open_new('192.168.1.108:8080')
 
 
-def dockerComposeStop():
-    os.system('docker-compose stop')
-
 if __name__ == '__main__':
     screen1 = Tk()
     screen1.title("Project02")
@@ -117,8 +114,7 @@ if __name__ == '__main__':
     btn1 = Button(screen1, text="Start", command=dockerCompose, fg="green", bg="white",font=('Arial',15))
     btn1.grid(column=3, row=18,padx=15,pady=10,ipady=5)
 
-    btn2 = Button(screen1, text="Stop", command=dockerComposeStop, fg="white", bg="red",font=('Arial',15))
-    btn2.grid(column=3, row=19,ipady=5)
+
 
 
     screen1.mainloop()
