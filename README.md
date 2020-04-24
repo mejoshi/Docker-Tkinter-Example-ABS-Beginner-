@@ -6,7 +6,7 @@ In docker training we had done many cool things, before this training I had no k
 
 #MakingIndiaFutureReady
 
-About My Project : Sometimes the CLI(Command Line Interface) is so complex to work with, specially for those guys who don't want to work with it. But there is a another option for these guys who don't like CLI and for client side also, GUI(Graphical User Interface). And I've use tkinter(GUI) here. Just a simple Desktop application for wordpress. I've given two options, first one is Manual Config,and another one is automatic config.
+About My Project : Sometimes the CLI(Command Line Interface) is so complex to work with, specially for those guys who don't want to work with it. But there is an another option for those guys who don't like CLI and for client side also, GUI(Graphical User Interface). And I've use tkinter(GUI) here. Just a simple Desktop application for wordpress. I've given two options, first one is Manual Config,and another one is automatic config.
 
 1. Mannual Config
 
