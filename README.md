@@ -6,7 +6,9 @@ In docker training we had done many cool things, before this training I had no k
 
 #MakingIndiaFutureReady
 
-About My Project : Sometimes the CLI(Command Line Interface) is so complex to work with, specially for those guys who don't want to work with it. But there is a another option for these guys who don't like CLI and for client side also, GUI(Graphical User Interface). And I've use tkinter(GUI) here. Just a simple Desktop application for wordpress. I've give two options, first one is Manual Config, You have to put every thing manually.
+About My Project : Sometimes the CLI(Command Line Interface) is so complex to work with, specially for those guys who don't want to work with it. But there is a another option for these guys who don't like CLI and for client side also, GUI(Graphical User Interface). And I've use tkinter(GUI) here. Just a simple Desktop application for wordpress. I've given two options, first one is Manual Config,and another one is automatic config.
+
+1. Mannual Config
 
 - mysqlContainerName > MySQL Container name
 - mySQLUsername > Username
@@ -18,4 +20,6 @@ About My Project : Sometimes the CLI(Command Line Interface) is so complex to wo
 - portNumber2 > ex. 80
 - mysqlContainerName > MySQL Container name
 
-but In automatic config, you don't have to put all these thing, Just one click start and one click stop
+2. Automatic COnfig
+
+but In automatic config, you don't have to put all these thing, Just one click start and one click stop. I've used docker compose here.
