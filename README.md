@@ -1,6 +1,6 @@
 # Docker Project
 
-Hello guys, This is my docker project, recently we had done our docker training under the guidance of VIMAR sir. He's a great teacher, he always inspire us, and he enlighten us with his knowledge. 
+Hello guys, recently we had done our docker training under the guidance of VIMAR sir. He's a great teacher, he always inspire us, and he enlighten us with his knowledge. 
 
 In docker training we had done many cool things, before this training I had no knowledge of DOCKER, like what is docker??, and after this training, all the docker concepts are clear. It's really intresting. This initiative under the IIEC RISE is great, awesome, and fabulous. I appreciate it
 
