@@ -1,0 +1,35 @@
+version: '3'
+
+services:
+  dbos:
+    image: mysql:5.7
+    volumes:
+      - mysql_storage:/var/lib/mysql
+    restart: always
+    environment:
+      MYSQL_ROOT_PASSWORD: redhat
+      MYSQL_USER: ashu
+      MYSQL_PASSWORD: ashu12
+      MYSQL_DATABASE: mydb
+
+  wordpressos:
+    image: wordpress:5.1
+    volumes:
+      - wordpress_storage:/var/www/html
+    restart: always
+    depends_on:
+      - dbos
+    ports:
+      - 8080:80
+    environment:
+      WORDPRESS_DB_HOST: dbos
+      WORDPRESS_DB_USER: ashu
+      WORDPRESS_DB_PASSWORD: ashu12
+      WORDPRESS_DB_NAME: mydb
+
+
+
+volumes:
+  mysql_storage:
+  wordpress_storage:
+
